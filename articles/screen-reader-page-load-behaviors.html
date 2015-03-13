@@ -1,0 +1,41 @@
+<h2 data-page-title="Screen Reader Page Load Behaviors">Screen Reader Page Load Behaviors</h2>
+
+<p>In an effort to better understand how screen readers communicate page load, I spent some time documenting how various screen reader and browser combinations report that a new page has loaded.</p>
+<table>
+<thead>
+<tr>
+<th>AT/Browser Combos</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VoiceOver(MacOS 10.9) w/Safari</td>
+<td>&quot;{page title} HTML content&quot;, reads page from top</td>
+</tr>
+<tr>
+<td>VoiceOver(MacOS 10.9) w/Chrome</td>
+<td>&quot;{page title} HTML content&quot;, reads page from top</td>
+</tr>
+<tr>
+<td>VoiceOver(iOS 7) w/Safari</td>
+<td>&quot;{URL} web page loaded&quot;, does not auto read</td>
+</tr>
+<tr>
+<td>VoiceOver(iOS 8) w/Safari</td>
+<td>&quot;{URL} web page loaded&quot;, does not auto read</td>
+</tr>
+<tr>
+<td>TalkBack(4.4) w/Firefox</td>
+<td>&quot;{page title}&quot;, loaded, does not auto read</td>
+</tr>
+<tr>
+<td>NVDA 2014.3(Win7) w/Firefox</td>
+<td>&quot;{page title}&quot;, reads page from top</td>
+</tr>
+<tr>
+<td>JAWS 15(Win7) w/IE9</td>
+<td>&quot;{page title}&quot;</td>
+</tr>
+</tbody>
+</table>
